@@ -37,8 +37,7 @@ const List = (
   
 
   useEffect(() => {
-    // getParticipantInfos();
-    setParticipantInfos(MOCK_RESPONSE)
+    getParticipantInfos();
   }, [setParticipantInfos]);
 
   console.log(participantInfos)
