@@ -20,7 +20,7 @@ const List = (
   ) => {
 
     const STAGING_ENDPOINT = "https://sheet.best/api/sheets/bbdaf862-8fcb-4bff-b28c-b2f6f23a31be"
-    const PRODUCTION_ENDPOINT ="https://sheet.best/api/sheets/2552b3dc-041c-4a3e-a378-4b34cd9f2261"
+    //const PRODUCTION_ENDPOINT ="https://sheet.best/api/sheets/2552b3dc-041c-4a3e-a378-4b34cd9f2261"
 
     const [participantInfos, setParticipantInfos] = useState();
 
